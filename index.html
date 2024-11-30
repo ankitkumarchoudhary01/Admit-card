@@ -46,7 +46,7 @@
 
                     if (studentRow) {
                         const admitCardLink = studentRow[linkIndex];
-                        window.open(admitCardLink, '_blank');
+                        window.location.href = admitCardLink;
                     } else {
                         alert('Application ID not found.');
                     }
